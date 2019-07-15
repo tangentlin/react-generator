@@ -1,0 +1,11 @@
+import React, { FunctionComponent } from 'react';
+import { <%= classify(name) %>Props } from './<%= classify(name) %>.types';
+
+export const <%= classify(name) %>: FunctionComponent<<% =classify(name) %>Props> = (/* props */) => {
+  return (
+    <div>
+      <%= classify(name) %> works!
+    </div>
+  );
+}
+

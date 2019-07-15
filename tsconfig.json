@@ -15,13 +15,13 @@
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "rootDir": "src/",
+    "outDir": "dist",
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es6",
     "types": [
-      "jasmine",
       "node"
     ]
   },

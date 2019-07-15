@@ -25,5 +25,7 @@ function adjustPackageJson() {
 
   content.schematics = './collection.json';
   const newJson = JSON.stringify(content, null, 2);
-  fs.writeFilesync('dist/package.json', newJson);
+  fs.writeFileSync('dist/package.json', newJson);
 }
+
+build();
