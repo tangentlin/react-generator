@@ -12,10 +12,14 @@ function clean() {
 }
 
 function copySource(next) {
-  ncp('src', 'dist', (err) => {
-    if (next) {
-      next();
-    }
+  ncp('src', 'dist', () => {
+    ncp('LICENSE', 'dist/LICENSE', () => {
+      ncp('README.md', 'dist/README.md', () => {
+        if (next) {
+          next();
+        }
+      });
+    });
   });
 }
 
