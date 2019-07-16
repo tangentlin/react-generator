@@ -1,0 +1,10 @@
+import React, { FunctionComponent } from 'react';
+import { <%= classify(name) %>Props } from './<%= classify(name) %>.types';
+
+export interface I<%= classify(name) %>Input {
+}
+
+export interface I<%= classify(name) %>Event {
+}
+
+export type <%= classify(name) %>Props = I<%= classify(name) %>Input & I<%= classify(name) %>Event;

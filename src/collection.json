@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "functional-component": {
+      "aliases": [ "sfc" ],
+      "factory": "./functional-component/index#functionalComponent",
+      "description": "Create a stateless functional React component.",
+      "schema": "./functional-component/schema.json"
+    }
+  }
+}
