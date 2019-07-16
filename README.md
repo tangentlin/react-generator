@@ -22,3 +22,8 @@ npx schematics @scalable/reactgen:sfc <ComponentName> [parameter]
 | *required* {string} | name | The name of the component. | none |
 | {string} | path | The path to create the component | none |
 | {boolean} | subfolder | Flag to indicate if a dir is created | true |
+
+
+### Credit
+
+This project is inspired by [schematics-react](https://www.npmjs.com/package/schematics-react)
