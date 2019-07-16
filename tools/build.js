@@ -28,6 +28,8 @@ function adjustPackageJson() {
   const content = JSON.parse(rawData);
 
   content.schematics = './collection.json';
+  content.optionalDependencies = undefined;
+  content.devDependencies = undefined;
   const newJson = JSON.stringify(content, null, 2);
   fs.writeFileSync('dist/package.json', newJson);
 }
