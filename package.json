@@ -1,6 +1,6 @@
 {
   "name": "@scalable/reactgen",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Code Generator for React components, Redux and more",
   "main": "index.js",
   "scripts": {
