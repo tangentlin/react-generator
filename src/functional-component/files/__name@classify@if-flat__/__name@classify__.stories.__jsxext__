@@ -11,4 +11,3 @@ export const defaultStory = () => <<%= classify(name) %> />;
 defaultStory.story = {
   name: 'Default',
 };
-
