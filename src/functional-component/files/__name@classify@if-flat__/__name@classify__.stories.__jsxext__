@@ -1,9 +1,14 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react'
 import { <%= classify(name) %> } from './<%= classify(name) %>';
 
-storiesOf('<%= classify(name) %>', module)
-  .add('Normal', () => (
-    <<%= classify(name) %> />
-  ));
+export default {
+  title: '<%= classify(name) %>',
+  component: <%= classify(name) %>,
+};
+
+export const defaultStory = () => <<%= classify(name) %> />;
+
+defaultStory.story = {
+  name: 'Default',
+};
 
