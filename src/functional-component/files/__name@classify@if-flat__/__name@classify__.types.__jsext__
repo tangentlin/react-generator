@@ -1,5 +1,4 @@
 import React from 'react';
-import { <%= classify(name) %>Props } from './<%= classify(name) %>.types';
 
 export interface I<%= classify(name) %>Input {
 }
