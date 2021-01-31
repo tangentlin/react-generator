@@ -7,7 +7,5 @@ export default {
 };
 
 export const defaultStory = () => <<%= classify(name) %> />;
+defaultStory.storyName = 'Default';
 
-defaultStory.story = {
-  name: 'Default',
-};
