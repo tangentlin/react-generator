@@ -1,6 +1,6 @@
-import React, { FunctionComponent } from 'react';
-// import styled from '@emotion/styled';
-import { <%= classify(name) %>Props } from './<%= classify(name) %>.types';
+import * as React from "react";
+import { FunctionComponent } from "react";
+import { <%= classify(name) %>Props } from "./<%= classify(name) %>.types";
 
 export const <%= classify(name) %>: FunctionComponent<<%= classify(name) %>Props> = (props) => {
   return (

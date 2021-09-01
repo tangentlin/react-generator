@@ -17,7 +17,6 @@ export function functionalComponent(options: FnComponentOptions): Rule {
   validateName(options.name);
 
   const templateSource = apply(url('./files'), [
-    // options.noSpec ? filter(path => !path.endsWith('.test.__jsext__')) : noop(),
     template({
       ...strings,
       'if-flat': (s: string) => options.subfolder ? s : '',
