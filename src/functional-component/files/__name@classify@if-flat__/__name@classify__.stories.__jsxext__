@@ -1,5 +1,6 @@
 import * as React from "react";
 import { <%= classify(name) %> } from "./<%= classify(name) %>";
+import { <%= classify(name) %>Props } from "./<%= classify(name) %>.types";
 import { Story, Meta } from "@storybook/react";
 
 export default {

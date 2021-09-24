@@ -13,6 +13,7 @@ export function functionalComponent(options: FnComponentOptions): Rule {
   const parsedPath = parseName(options.path, options.name);
   options.name = parsedPath.name;
   options.path = parsedPath.path;
+  options.storyPath = parsedPath.storyPath;
 
   validateName(options.name);
 

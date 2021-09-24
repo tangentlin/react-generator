@@ -11,4 +11,9 @@ export interface Schema {
    * Flag to indicate if a dir is created.
    */
   subfolder?: boolean;
+
+  /**
+   * The story path as presented in storybook
+   */
+  storyPath?: string;
 }
